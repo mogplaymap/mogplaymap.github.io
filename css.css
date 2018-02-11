@@ -1,0 +1,86 @@
+body {
+  margin: 0px;
+  margin-bottom: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: #f0efef;
+  -webkit-overflow-scrolling: touch;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+#about {
+  margin-top: 0px;
+  margin-left: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 4px;
+}
+
+#menu {   
+  display: inline-block;
+  background-color: #66CDAA;
+  width: 100%;
+}
+#menu li {
+  display: inline-block;
+  padding: 9px;
+  color: white;
+  font-size: 16px;
+  top: 4px;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  -moz-transition: all 0.3s 0.01s ease; /* плавный переход*/
+  -o-transition: all 0.3s 0.01s ease;
+  -webkit-transition: all 0.3s 0.01s ease;
+}
+#menu ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+      #menu ul li { float: none; }
+      #menu li:hover { background-color: #363636; }
+a {
+  text-decoration: none;
+  position: center;
+  padding: 5px; /*добавляем отступ*/
+}
+#vk_auth {
+  margin-top: 50px;
+  top: 20%; /* Отступ в процентах от верхнего края окна */
+  left: 50%; /* Отступ в процентах от левого края окна */
+  width: 450px; /* Ширина блока */
+  height: 400px; /* Высота блока */
+  position: center; /* Абсолютное позиционирование блока */
+}
+
+.map-control {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 2px rgba(33, 33, 33, 0.4);
+  font-family: 'Roboto','sans-serif';
+  margin: 10px;
+  padding-right: 5px;
+  /* Hide the control initially, to prevent it from appearing
+     before the map loads. */
+  display: none;
+}
+/* Display the control once it is inside the map. */
+#map .map-control { display: block;
+margin-bottom: 50px; }
+
+.selector-control {
+  font-size: 14px;
+  line-height: 30px;
+  vertical-align: baseline;
+}
+
+/* Кнопки */
+.knopka {
+  position: center;
+  background-color: #66CDAA;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: none;
+}
